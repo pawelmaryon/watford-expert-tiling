@@ -1,6 +1,5 @@
-
-
-function Navbar() {
+const Navbar = () => {
+  return (
   <div>
     <ul>
       <li>Gallery</li>
@@ -9,6 +8,7 @@ function Navbar() {
       <li>Contact</li>
     </ul>
   </div>
+  )
 }
 
 export default Navbar;
