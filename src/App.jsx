@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <ResponsiveNavbar/>
-      <Header/ >
-      <Footer/ >
+      <Header/>
+      <Footer/>
     </div>
   );
 }
