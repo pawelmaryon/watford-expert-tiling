@@ -1,13 +1,13 @@
+import './Navbar.scss'
+import NavItem from './NavItem/NavItem'
+
 const Navbar = () => {
   return (
-  <div>
-    <ul>
-      <li>Gallery</li>
-      <li>Info</li>
-      <li>About</li>
-      <li>Contact</li>
-    </ul>
-  </div>
+  <ul className='navbar-wrapper'>
+    <NavItem name='Gallery'/>
+    <NavItem name='About'/>
+    <NavItem name='Contact'/>
+  </ul>
   )
 }
 
