@@ -1,0 +1,16 @@
+.nav-btn {
+  border-radius: 50%;
+  width: 10vw;
+  border: none;
+  background-color: rgba(230, 200, 160, 0.9);
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(231, 197, 153, 0.9);
+  }
+}
+.visible {
+  display: block;
+}
+.not-visible {
+  display: none;
+}

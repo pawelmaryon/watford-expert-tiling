@@ -1,0 +1,13 @@
+.header-wrapper {
+  width: 100vw;
+  text-align: center;
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;
+    .logo {
+      width: 10vw;
+      border-radius: 50%;
+    }
+  }
+}
