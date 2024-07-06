@@ -7,8 +7,12 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div>
-      <Header/>
-      <Main/>
+      <section>
+        <Header/>
+      </section>
+      <section>
+        <Main/>
+      </section>
       <section>
         <Footer/>
       </section>
