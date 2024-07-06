@@ -16,7 +16,7 @@ export default function Main() {
         <MenuButton onSelect={() => clickHandler('Underfloor Heating')}>Underfloor Heating</MenuButton>
         <MenuButton onSelect={() => clickHandler('Wet Rooms')}>Wet Rooms</MenuButton>
       </menu>
-      <section>
+      <section id='main-section-content'>
         {selectedService}
       </section>
     </main>
