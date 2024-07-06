@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import './Main.scss';
 import MenuButton from '../Shared/MenuButton/MenuButton';
+import { TILING_SERVICES } from '../../content/data'
+
 export default function Main() {
-  const [selectedService, setSelectedService] = useState('initial content');
+  const [selectedService, setSelectedService] = useState('floor');
 
   const clickHandler = (selectedButton) =>{
     setSelectedService(selectedButton)
@@ -11,13 +13,14 @@ export default function Main() {
   return(
     <main>
       <menu>
-        <MenuButton onSelect={() => clickHandler('Floor Tiling')}>Floor Tiling</MenuButton>
-        <MenuButton onSelect={() => clickHandler('Wall Tiling')}>Wall Tiling</MenuButton>
-        <MenuButton onSelect={() => clickHandler('Underfloor Heating')}>Underfloor Heating</MenuButton>
-        <MenuButton onSelect={() => clickHandler('Wet Rooms')}>Wet Rooms</MenuButton>
+        <MenuButton onSelect={() => clickHandler('floor')}>Floor Tiling</MenuButton>
+        <MenuButton onSelect={() => clickHandler('wall')}>Wall Tiling</MenuButton>
+        <MenuButton onSelect={() => clickHandler('heating')}>Underfloor Heating</MenuButton>
+        <MenuButton onSelect={() => clickHandler('wetrooms')}>Wet Rooms</MenuButton>
       </menu>
       <section id='main-section-content'>
-        {selectedService}
+        <h3>{TILING_SERVICES[selectedService].title}</h3>
+        <p>{TILING_SERVICES[selectedService].description}</p>
       </section>
     </main>
   )
