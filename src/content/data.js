@@ -441,14 +441,101 @@ export const TILING_SERVICES = {
         illusion_of_space: {
           title: 'Illusion of Space',
           description: 'Makes small bathrooms appear larger due to the open, uncluttered design.'
+        },
+        ease_of_cleaning: {
+          title: 'Ease of Cleaning',
+          minimalist_design: {
+            title: 'Minimalist Design',
+            description: 'Fewer fixtures and fittings make it easier to clean.'
+          },
+          water_flow: {
+            title: 'Water Flow',
+            description: 'Water from the shower can wash over the entire floor, making cleaning more efficient.'
+          }
+        },
+        versatility: {
+          title: 'Versatility',
+          description: 'Can be installed in bathrooms of all sizes, from compact en-suites to large master bathrooms.'
         }
       }
     },
     considerations: {
-
+      cost: {
+        title: 'Cost',
+        higher_installation_costs: {
+          title: 'Higher Installation Costs',
+          description: 'The need for comprehensive waterproofing and proper drainage can make wet rooms more expensive to install than traditional bathrooms.'
+        },
+        quality_materials: {
+          title: 'Quality Materials',
+          description: 'Using high-quality materials for waterproofing and finishes can add to the cost.'
+        }
+      },
+      water_management: {
+        proper_slope: {
+          title: 'Proper Slope',
+          description: 'Ensuring the floor is properly sloped towards the drain is crucial to prevent water pooling.'
+        },
+        effective_drainage: {
+          title: 'Effective Drainage',
+          description: 'A reliable drainage system is essential to handle the volume of water from the shower.'
+        }
+      },
+      privacy: {
+        open_design: {
+          title: 'Open Design',
+          description: 'The open layout might reduce privacy if the wet room is part of a shared bathroom.'
+        }
+      },
+      humidity_control: {
+        ventilation: {
+          title: 'Ventilation',
+          description: 'Adequate ventilation is necessary to manage moisture and prevent mold growth.'
+        }
+      }
     },
     installation_process: {
-
+      planning: {
+        layout_design: {
+          title: 'Layout Design',
+          description: 'Careful planning of the layout to position the drain, shower, and other fixtures.'
+        },
+        choosing_materials: {
+          title: 'Choosing Materials:',
+          description: 'Selecting appropriate waterproofing materials and finishes.'
+        }
+      },
+      waterproofing: {
+        applying_membranes: {
+          title: 'Applying Membranes',
+          description: 'aterproof membranes are applied to all surfaces, including floors and walls.'
+        },
+        sealing: {
+          title: 'Sealing',
+          description: 'Ensuring all joints and connections are properly sealed.'
+        },
+      },
+      floor_preparation: {
+        title: 'Floor Preparation',
+        creating_slope: {
+          title: 'Creating Slope',
+          description: ' Installing a sloped subfloor to direct water towards the drain.'
+        },
+        installing_drain: {
+          title: 'Installing Drain',
+          description: 'Positioning the drain and connecting it to the plumbing system.'
+        }
+      },
+      finishing: {
+        tiling_or_flooring: {
+          title: 'Tiling or Flooring',
+          description: 'Laying tiles or other flooring materials and ensuring they are sealed.'
+        },
+        installing_fixtures: {
+          title: 'Installing Fixtures',
+          description: 'Adding the showerhead, controls, and any optional screens or partitions.'
+        }
+      }
     }
   }
 };
