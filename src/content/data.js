@@ -135,93 +135,93 @@ export const TILING_SERVICES = {
       },
       design_patterns: {
         straight_lay: {
-          name: 'Straighs Lay',
+          title: 'Straighs Lay',
           description: 'Tiles are aligned in a straightforward grid, creating a clean and simple appearance.'
         },
         diagonal_lay: {
-          name: 'Diagonal Lay',
+          title: 'Diagonal Lay',
           description: 'Tiles are laid at a 45-degree angle to the edges, adding a dynamic and visually interesting element.'
         },
         herringbone: {
-          name: 'Herringbone',
+          title: 'Herringbone',
           description: 'Rectangular tiles are arranged in a zigzag pattern, providing a sophisticated and intricate design.'
         },
         brick_or_subway: {
-          name: 'Brick or Subway',
+          title: 'Brick or Subway',
           description: 'Tiles are staggered like bricks in a wall, creating a timeless and classic look.'
         },
         chevron: {
-          name: 'Chevron',
+          title: 'Chevron',
           description: 'Similar to herringbone but with each rectangular tile cut at an angle to form a continuous zigzag pattern.'
         },
         basket_weave: {
-          name: 'Basket Weave',
+          title: 'Basket Weave',
           description: 'Mimics the look of woven baskets, adding texture and complexity.'
         },
       },
       installation_process: {
         preparation: {
-          name: 'Preparation',
+          title: 'Preparation',
           description: 'The wall surface must be clean, dry, and even. Any old coverings or loose paint should be removed, and repairs made if necessary.'
         },
         layout: {
-          name: 'Layout',
+          title: 'Layout',
           description: 'Planning the layout is crucial to ensure a balanced design. A dry run, where tiles are placed without adhesive, helps visualize the final result..'
         },
         adhesive_application: {
-          name: 'Adhesive Application',
+          title: 'Adhesive Application',
           description: 'Tile adhesive or thin-set mortar is applied to the wall with a notched trowel, creating grooves for better adhesion.'
         },
         setting_tiles: {
-          name: 'Setting Tiles',
+          title: 'Setting Tiles',
           description: 'Tiles are pressed into the adhesive, following the chosen pattern. Spacers are used to maintain consistent gaps between tiles for grout lines.'
         },
         cutting_tiles: {
-          name: 'Cutting Tiles:',
+          title: 'Cutting Tiles:',
           description: 'Tiles around edges, corners, or obstacles like outlets are cut to fit using a tile cutter or wet saw.'
         },
         grouting: {
-          name: 'Grouting',
+          title: 'Grouting',
           description: ' Once the adhesive sets, grout is applied to fill the gaps between tiles. Excess grout is wiped off, and the surface is cleaned.'
         },
         sealing: {
-          name: 'Sealing',
+          title: 'Sealing',
           description: 'Depending on the tile material, a sealant may be applied to protect the tiles and grout from stains and moisture.'
         },
       },
       benefits_and_considerations: {
         durability: {
-          name: 'Durability',
+          title: 'Durability',
           description: 'Wall tiles are durable and can withstand impacts, moisture, and heat, making them ideal for kitchens, bathrooms, and other high-use areas.'
         },
         maintenance: {
-          name: 'Maintenance',
+          title: 'Maintenance',
           description: 'Tiles are generally easy to clean and maintain. However, grout lines may require periodic cleaning and resealing.'
         },
         aesthetics: {
-          name: 'Aesthetics',
+          title: 'Aesthetics',
           description: 'Wall tiles come in a wide range of materials, colors, and patterns, allowing for creative and personalized designs.'
         },
         cost: {
-          name: 'Cost',
+          title: 'Cost',
           description: 'The cost of wall tiling can vary widely based on the material chosen and the complexity of the installation.'
         },
       },
       applications: {
         kitchens: {
-          name: 'Kitchens',
+          title: 'Kitchens',
           description: 'Commonly used for backsplashes to protect walls from moisture and stains while adding decorative elements.'
         },
         bathrooms: {
-          name: 'Bathrooms',
+          title: 'Bathrooms',
           description: 'Used extensively in showers, around bathtubs, and on walls to create water-resistant surfaces.'
         },
         accent_walls: {
-          name: 'Accent Walls',
+          title: 'Accent Walls',
           description: 'Adding a tiled accent wall can create a focal point in living rooms, bedrooms, or entryways.'
         },
         commercial_spaces: {
-          name: 'Commercial Spaces',
+          title: 'Commercial Spaces',
           description: 'Often used in restaurants, hotels, and other commercial settings for their durability and design versatility.'
         },
       }
@@ -232,39 +232,39 @@ export const TILING_SERVICES = {
     description: "Underfloor heating (UFH) is a method of heating a space by warming the floor surface, which then radiates heat evenly throughout the room. This system can be more efficient and comfortable compared to traditional radiators or heating systems. Here are the key aspects of underfloor heating:",
     types: {
       electric_underfloor_heating: {
-        name: 'Electric Underfloor Heating:',
+        title: 'Electric Underfloor Heating:',
         components: {
           name: 'Components',
           describtion: 'Consists of electric heating cables or mats installed beneath the floor covering.'
         },
         installation: {
-          name: 'Installation',
+          title: 'Installation',
           describtion: 'Easier and less expensive to install, particularly in smaller areas or individual rooms. The electric mats or cables are laid out on the subfloor and connected to the electrical system.'
         },
         operation: {
-          name: 'Operation',
+          title: 'Operation',
           describtion: 'Heat is generated by the electrical resistance of the cables or mats, which warms the floor surface.'
         },
         usage: {
-          name: 'Usage',
+          title: 'Usage',
           describtion: 'Best suited for smaller areas, such as bathrooms or kitchens, due to higher operating costs compared to hydronic systems.'
         },
       },
       hydronic_underfloor_heating: {
         components: {
-          name: 'Components',
+          title: 'Components',
           description: 'Uses a network of pipes laid beneath the floor, through which warm water is circulated.'
         },
         installation: {
-          name: 'Installation',
+          title: 'Installation',
           description: 'More complex and expensive to install, often involving the integration with the home’s central heating system (such as a boiler). Best suited for new constructions or major renovations.'
         },
         operation: {
-          name: 'Operation',
+          title: 'Operation',
           description: 'Heated water from a boiler or heat pump is circulated through the pipes, transferring heat to the floor.'
         },
         usage: {
-          name: 'Usage',
+          title: 'Usage',
           description: 'Ideal for larger areas or entire homes, offering more energy-efficient heating over the long term.'
         },
       }
@@ -311,19 +311,19 @@ export const TILING_SERVICES = {
     },
     considerations: {
       cost: {
-        name: 'Cost',
+        title: 'Cost',
         description: 'Higher initial installation costs, particularly for hydronic systems. However, long-term energy savings can offset this expense.'
       },
       flooring_compatibility: {
-        name: 'Flooring Compatibility',
+        title: 'Flooring Compatibility',
         description: 'Works best with certain types of flooring, such as tile, stone, or engineered wood. Some types of flooring, like thick carpets or solid hardwood, may not be as effective.'
       },
       installation: {
-        name: 'Installation',
+        title: 'Installation',
         description: 'Easier to install during new construction or major renovations. Retrofitting in existing buildings can be more challenging and expensive.'
       },
       maintenance: {
-        name: 'Maintenance',
+        title: 'Maintenance',
         description: 'Generally low maintenance once installed. However, any repairs may require accessing the system beneath the floor, which can be disruptive.'
       },
     },
