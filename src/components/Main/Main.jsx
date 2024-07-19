@@ -10,6 +10,10 @@ export default function Main() {
     setSelectedService(selectedButton)
   }
 
+  const { floor, wall, heating, wetrooms  } = TILING_SERVICES
+  const {material, design_patterns, installation_process, benefits_and_considerations } = floor;
+  console.log(material, design_patterns, installation_process, benefits_and_considerations);
+  
   return(
     <main>
       <menu>
