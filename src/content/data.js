@@ -9,7 +9,7 @@ export const TILING_SERVICES = {
           title: 'Ceramic Tiles',
           description: "Made from clay and other natural materials, ceramic tiles are durable, water-resistant, and available in numerous designs and colors."},
         porcelain_tiles: {
-          tilte: 'Porcelain Tiles',
+          title: 'Porcelain Tiles',
           description: "A type of ceramic tile, porcelain is denser, more durable, and less porous. It is suitable for high-traffic areas and wet environments."},
         natural_stone_tiles: {
           title: "Natural Stone Tiles",

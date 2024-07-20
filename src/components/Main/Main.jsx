@@ -11,9 +11,13 @@ export default function Main() {
   }
 
   const { floor, wall, heating, wetrooms  } = TILING_SERVICES
-  const {material, design_patterns, installation_process, benefits_and_considerations } = floor;
-  console.log(material, design_patterns, installation_process, benefits_and_considerations);
-  
+  const {material: floor_material, design_patterns: floor_design_patterns, installation_process: floor_installation_process, benefits_and_considerations: floor_benefits_and_considerations } = floor;
+
+  // console.log(floor_material, floor_design_patterns, floor_installation_process, floor_benefits_and_considerations);
+
+  const {types: f_types} = floor_material
+  // console.log(f_types);
+  console.log(f_types.porcelain_tiles.description);
   return(
     <main>
       <menu>
