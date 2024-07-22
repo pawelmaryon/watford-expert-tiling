@@ -12,6 +12,8 @@ export default function Main() {
   let content = ""
   const { floor, wall, heating, wetrooms  } = TILING_SERVICES
   const {material: floor_material, design_patterns: floor_design_patterns, installation_process: floor_installation_process, benefits_and_considerations: floor_benefits_and_considerations } = floor;
+  const {material: wall_material} = wall;
+  const {types: w_types} = wall_material;
 
   // console.log(floor_material, floor_design_patterns, floor_installation_process, floor_benefits_and_considerations);
 
@@ -29,6 +31,20 @@ export default function Main() {
           <p>{f_types.ceramic_tiles.description}</p>
           <li><p>{f_types.porcelain_tiles.title}</p></li>
           <p>{f_types.porcelain_tiles.description}</p>
+        </ul>
+      </div>
+    )
+  }
+  if (selectedService === 'wall') {
+    content = (
+      <div>
+        <h4>{wall.title}</h4>
+        <p>{wall_material.description}</p>
+        <ul>
+          <li><p>{w_types.ceramic_tiles.title}</p></li>
+          <p>{w_types.ceramic_tiles.description}</p>
+          <li><p>{w_types.porcelain_tiles.title}</p></li>
+          <p>{w_types.porcelain_tiles.description}</p>
         </ul>
       </div>
     )

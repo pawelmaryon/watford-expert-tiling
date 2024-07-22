@@ -133,98 +133,98 @@ export const TILING_SERVICES = {
           description: "Small tiles made from ceramic, glass, stone, or metal arranged to create intricate patterns or images. They are often used for decorative features or backsplashes."
         },
       },
-      design_patterns: {
-        straight_lay: {
-          name: 'Straighs Lay',
-          description: 'Tiles are aligned in a straightforward grid, creating a clean and simple appearance.'
-        },
-        diagonal_lay: {
-          name: 'Diagonal Lay',
-          description: 'Tiles are laid at a 45-degree angle to the edges, adding a dynamic and visually interesting element.'
-        },
-        herringbone: {
-          name: 'Herringbone',
-          description: 'Rectangular tiles are arranged in a zigzag pattern, providing a sophisticated and intricate design.'
-        },
-        brick_or_subway: {
-          name: 'Brick or Subway',
-          description: 'Tiles are staggered like bricks in a wall, creating a timeless and classic look.'
-        },
-        chevron: {
-          name: 'Chevron',
-          description: 'Similar to herringbone but with each rectangular tile cut at an angle to form a continuous zigzag pattern.'
-        },
-        basket_weave: {
-          name: 'Basket Weave',
-          description: 'Mimics the look of woven baskets, adding texture and complexity.'
-        },
+    },
+    design_patterns: {
+      straight_lay: {
+        name: 'Straighs Lay',
+        description: 'Tiles are aligned in a straightforward grid, creating a clean and simple appearance.'
       },
-      installation_process: {
-        preparation: {
-          name: 'Preparation',
-          description: 'The wall surface must be clean, dry, and even. Any old coverings or loose paint should be removed, and repairs made if necessary.'
-        },
-        layout: {
-          name: 'Layout',
-          description: 'Planning the layout is crucial to ensure a balanced design. A dry run, where tiles are placed without adhesive, helps visualize the final result..'
-        },
-        adhesive_application: {
-          name: 'Adhesive Application',
-          description: 'Tile adhesive or thin-set mortar is applied to the wall with a notched trowel, creating grooves for better adhesion.'
-        },
-        setting_tiles: {
-          name: 'Setting Tiles',
-          description: 'Tiles are pressed into the adhesive, following the chosen pattern. Spacers are used to maintain consistent gaps between tiles for grout lines.'
-        },
-        cutting_tiles: {
-          name: 'Cutting Tiles:',
-          description: 'Tiles around edges, corners, or obstacles like outlets are cut to fit using a tile cutter or wet saw.'
-        },
-        grouting: {
-          name: 'Grouting',
-          description: ' Once the adhesive sets, grout is applied to fill the gaps between tiles. Excess grout is wiped off, and the surface is cleaned.'
-        },
-        sealing: {
-          name: 'Sealing',
-          description: 'Depending on the tile material, a sealant may be applied to protect the tiles and grout from stains and moisture.'
-        },
+      diagonal_lay: {
+        name: 'Diagonal Lay',
+        description: 'Tiles are laid at a 45-degree angle to the edges, adding a dynamic and visually interesting element.'
       },
-      benefits_and_considerations: {
-        durability: {
-          name: 'Durability',
-          description: 'Wall tiles are durable and can withstand impacts, moisture, and heat, making them ideal for kitchens, bathrooms, and other high-use areas.'
-        },
-        maintenance: {
-          name: 'Maintenance',
-          description: 'Tiles are generally easy to clean and maintain. However, grout lines may require periodic cleaning and resealing.'
-        },
-        aesthetics: {
-          name: 'Aesthetics',
-          description: 'Wall tiles come in a wide range of materials, colors, and patterns, allowing for creative and personalized designs.'
-        },
-        cost: {
-          name: 'Cost',
-          description: 'The cost of wall tiling can vary widely based on the material chosen and the complexity of the installation.'
-        },
+      herringbone: {
+        name: 'Herringbone',
+        description: 'Rectangular tiles are arranged in a zigzag pattern, providing a sophisticated and intricate design.'
       },
-      applications: {
-        kitchens: {
-          name: 'Kitchens',
-          description: 'Commonly used for backsplashes to protect walls from moisture and stains while adding decorative elements.'
-        },
-        bathrooms: {
-          name: 'Bathrooms',
-          description: 'Used extensively in showers, around bathtubs, and on walls to create water-resistant surfaces.'
-        },
-        accent_walls: {
-          name: 'Accent Walls',
-          description: 'Adding a tiled accent wall can create a focal point in living rooms, bedrooms, or entryways.'
-        },
-        commercial_spaces: {
-          name: 'Commercial Spaces',
-          description: 'Often used in restaurants, hotels, and other commercial settings for their durability and design versatility.'
-        },
-      }
+      brick_or_subway: {
+        name: 'Brick or Subway',
+        description: 'Tiles are staggered like bricks in a wall, creating a timeless and classic look.'
+      },
+      chevron: {
+        name: 'Chevron',
+        description: 'Similar to herringbone but with each rectangular tile cut at an angle to form a continuous zigzag pattern.'
+      },
+      basket_weave: {
+        name: 'Basket Weave',
+        description: 'Mimics the look of woven baskets, adding texture and complexity.'
+      },
+    },
+    installation_process: {
+      preparation: {
+        name: 'Preparation',
+        description: 'The wall surface must be clean, dry, and even. Any old coverings or loose paint should be removed, and repairs made if necessary.'
+      },
+      layout: {
+        name: 'Layout',
+        description: 'Planning the layout is crucial to ensure a balanced design. A dry run, where tiles are placed without adhesive, helps visualize the final result..'
+      },
+      adhesive_application: {
+        name: 'Adhesive Application',
+        description: 'Tile adhesive or thin-set mortar is applied to the wall with a notched trowel, creating grooves for better adhesion.'
+      },
+      setting_tiles: {
+        name: 'Setting Tiles',
+        description: 'Tiles are pressed into the adhesive, following the chosen pattern. Spacers are used to maintain consistent gaps between tiles for grout lines.'
+      },
+      cutting_tiles: {
+        name: 'Cutting Tiles:',
+        description: 'Tiles around edges, corners, or obstacles like outlets are cut to fit using a tile cutter or wet saw.'
+      },
+      grouting: {
+        name: 'Grouting',
+        description: ' Once the adhesive sets, grout is applied to fill the gaps between tiles. Excess grout is wiped off, and the surface is cleaned.'
+      },
+      sealing: {
+        name: 'Sealing',
+        description: 'Depending on the tile material, a sealant may be applied to protect the tiles and grout from stains and moisture.'
+      },
+    },
+    benefits_and_considerations: {
+      durability: {
+        name: 'Durability',
+        description: 'Wall tiles are durable and can withstand impacts, moisture, and heat, making them ideal for kitchens, bathrooms, and other high-use areas.'
+      },
+      maintenance: {
+        name: 'Maintenance',
+        description: 'Tiles are generally easy to clean and maintain. However, grout lines may require periodic cleaning and resealing.'
+      },
+      aesthetics: {
+        name: 'Aesthetics',
+        description: 'Wall tiles come in a wide range of materials, colors, and patterns, allowing for creative and personalized designs.'
+      },
+      cost: {
+        name: 'Cost',
+        description: 'The cost of wall tiling can vary widely based on the material chosen and the complexity of the installation.'
+      },
+    },
+    applications: {
+      kitchens: {
+        name: 'Kitchens',
+        description: 'Commonly used for backsplashes to protect walls from moisture and stains while adding decorative elements.'
+      },
+      bathrooms: {
+        name: 'Bathrooms',
+        description: 'Used extensively in showers, around bathtubs, and on walls to create water-resistant surfaces.'
+      },
+      accent_walls: {
+        name: 'Accent Walls',
+        description: 'Adding a tiled accent wall can create a focal point in living rooms, bedrooms, or entryways.'
+      },
+      commercial_spaces: {
+        name: 'Commercial Spaces',
+        description: 'Often used in restaurants, hotels, and other commercial settings for their durability and design versatility.'
+      },
     },
   },
   heating: {
