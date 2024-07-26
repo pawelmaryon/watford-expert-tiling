@@ -14,6 +14,7 @@ export default function Main() {
   const {material: floor_material, design_patterns: floor_design_patterns, installation_process: floor_installation_process, benefits_and_considerations: floor_benefits_and_considerations } = floor;
   const {material: wall_material} = wall;
   const {types: w_types} = wall_material;
+  const {types: h_types, installation_process: heating_ip, considerations: heating_con, applications: h_application} = heating;
 
   // console.log(floor_material, floor_design_patterns, floor_installation_process, floor_benefits_and_considerations);
 
