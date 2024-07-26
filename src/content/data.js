@@ -3,8 +3,10 @@ export const TILING_SERVICES = {
     title: 'Floor Tiling',
     description: "Floor tiling is a versatile and practical flooring option that can enhance the functionality and aesthetics of any space, from residential to commercial settings. This process involves several key steps and considerations, including the choice of tile material, the design pattern, and the installation process.",
     material: {
+      title: 'Materials',
       description: "Floor tiles can be made from various materials, each offering different benefits and aesthetic qualities:",
       types: {
+        title: 'Types',
         ceramic_tiles: {
           title: 'Ceramic Tiles',
           description: "Made from clay and other natural materials, ceramic tiles are durable, water-resistant, and available in numerous designs and colors."},
@@ -26,7 +28,8 @@ export const TILING_SERVICES = {
       }
     },
     design_patterns: {
-      descriptin: 'The layout of the tiles can significantly impact the visual appeal of the floor. Common patterns include:',
+      title: 'Design Patterns',
+      description: 'The layout of the tiles can significantly impact the visual appeal of the floor. Common patterns include:',
       types: {
         straight_lay: {
           title: 'Straight Lay',
@@ -55,6 +58,7 @@ export const TILING_SERVICES = {
       }
     },
     installation_process: {
+      title: 'Installation Process',
       description: 'Installing floor tiles involves several steps:',
       guide: {
         preparation: {
@@ -84,6 +88,7 @@ export const TILING_SERVICES = {
       }
     },
     benefits_and_considerations: {
+      title: 'Benefits and Considerations',
       durability: {
         title: 'Durability',
         description: 'Tiles are long-lasting and can withstand heavy traffic.'
@@ -106,6 +111,7 @@ export const TILING_SERVICES = {
     title: 'Wall Tiling',
     description: 'Wall tiling enhances the functionality and aesthetic appeal of any space, offering a durable and visually pleasing solution for various applications. This process enhances both the functionality and aesthetic appeal of the walls. Here are the key aspects of wall tiling:',
     material: {
+      title: 'Materials',
       description: "Wall tiles can be made from different materials, each offering unique qualities and benefits:",
       types: {
         ceramic_tiles: {
@@ -226,45 +232,116 @@ export const TILING_SERVICES = {
         description: 'Often used in restaurants, hotels, and other commercial settings for their durability and design versatility.'
       },
     },
+    installation_process: {
+      title: 'Installation Process',
+      preparation: {
+        title: 'Preparation',
+        description: 'The wall surface must be clean, dry, and even. Any old coverings or loose paint should be removed, and repairs made if necessary.'
+      },
+      layout: {
+        title: 'Layout',
+        description: 'Planning the layout is crucial to ensure a balanced design. A dry run, where tiles are placed without adhesive, helps visualize the final result..'
+      },
+      adhesive_application: {
+        title: 'Adhesive Application',
+        description: 'Tile adhesive or thin-set mortar is applied to the wall with a notched trowel, creating grooves for better adhesion.'
+      },
+      setting_tiles: {
+        title: 'Setting Tiles',
+        description: 'Tiles are pressed into the adhesive, following the chosen pattern. Spacers are used to maintain consistent gaps between tiles for grout lines.'
+      },
+      cutting_tiles: {
+        title: 'Cutting Tiles:',
+        description: 'Tiles around edges, corners, or obstacles like outlets are cut to fit using a tile cutter or wet saw.'
+      },
+      grouting: {
+        title: 'Grouting',
+        description: ' Once the adhesive sets, grout is applied to fill the gaps between tiles. Excess grout is wiped off, and the surface is cleaned.'
+      },
+      sealing: {
+        title: 'Sealing',
+        description: 'Depending on the tile material, a sealant may be applied to protect the tiles and grout from stains and moisture.'
+      },
+    },
+    benefits_and_considerations: {
+      title: 'Benefits and Considerations',
+      durability: {
+        title: 'Durability',
+        description: 'Wall tiles are durable and can withstand impacts, moisture, and heat, making them ideal for kitchens, bathrooms, and other high-use areas.'
+      },
+      maintenance: {
+        title: 'Maintenance',
+        description: 'Tiles are generally easy to clean and maintain. However, grout lines may require periodic cleaning and resealing.'
+      },
+      aesthetics: {
+        title: 'Aesthetics',
+        description: 'Wall tiles come in a wide range of materials, colors, and patterns, allowing for creative and personalized designs.'
+      },
+      cost: {
+        title: 'Cost',
+        description: 'The cost of wall tiling can vary widely based on the material chosen and the complexity of the installation.'
+      },
+    },
+    applications: {
+      title: 'Applications',
+      kitchens: {
+        title: 'Kitchens',
+        description: 'Commonly used for backsplashes to protect walls from moisture and stains while adding decorative elements.'
+      },
+      bathrooms: {
+        title: 'Bathrooms',
+        description: 'Used extensively in showers, around bathtubs, and on walls to create water-resistant surfaces.'
+      },
+      accent_walls: {
+        title: 'Accent Walls',
+        description: 'Adding a tiled accent wall can create a focal point in living rooms, bedrooms, or entryways.'
+      },
+      commercial_spaces: {
+        title: 'Commercial Spaces',
+        description: 'Often used in restaurants, hotels, and other commercial settings for their durability and design versatility.'
+      },
+    }
   },
   heating: {
     title: 'Underfloor Heating',
     description: "Underfloor heating (UFH) is a method of heating a space by warming the floor surface, which then radiates heat evenly throughout the room. This system can be more efficient and comfortable compared to traditional radiators or heating systems. Here are the key aspects of underfloor heating:",
     types: {
+      title: 'Types',
       electric_underfloor_heating: {
-        name: 'Electric Underfloor Heating:',
+        title: 'Electric Underfloor Heating:',
         components: {
           name: 'Components',
           describtion: 'Consists of electric heating cables or mats installed beneath the floor covering.'
         },
         installation: {
-          name: 'Installation',
+          title: 'Installation',
           describtion: 'Easier and less expensive to install, particularly in smaller areas or individual rooms. The electric mats or cables are laid out on the subfloor and connected to the electrical system.'
         },
         operation: {
-          name: 'Operation',
+          title: 'Operation',
           describtion: 'Heat is generated by the electrical resistance of the cables or mats, which warms the floor surface.'
         },
         usage: {
-          name: 'Usage',
+          title: 'Usage',
           describtion: 'Best suited for smaller areas, such as bathrooms or kitchens, due to higher operating costs compared to hydronic systems.'
         },
       },
       hydronic_underfloor_heating: {
+        title: 'Hydronic Underfloor Heating:',
         components: {
-          name: 'Components',
+          title: 'Components',
           description: 'Uses a network of pipes laid beneath the floor, through which warm water is circulated.'
         },
         installation: {
-          name: 'Installation',
+          title: 'Installation',
           description: 'More complex and expensive to install, often involving the integration with the home’s central heating system (such as a boiler). Best suited for new constructions or major renovations.'
         },
         operation: {
-          name: 'Operation',
+          title: 'Operation',
           description: 'Heated water from a boiler or heat pump is circulated through the pipes, transferring heat to the floor.'
         },
         usage: {
-          name: 'Usage',
+          title: 'Usage',
           description: 'Ideal for larger areas or entire homes, offering more energy-efficient heating over the long term.'
         },
       }
@@ -350,7 +427,9 @@ export const TILING_SERVICES = {
     title: 'Wet Rooms',
     description: "Wet rooms offer a modern, accessible, and stylish solution for bathrooms, with careful consideration needed for waterproofing, drainage, and ventilation to ensure functionality and longevity. This design creates an open, accessible, and modern space, eliminating the need for a separate shower enclosure. Here are the key aspects of wet rooms:",
     design_and_structure: {
+      title: 'Design and Structure',
       waterproofing: {
+        title: 'Waterproofing',
         tank_the_room: {
           title: 'Tank the Room:',
           description: 'The entire room is waterproofed (or "tanked") to ensure no water leaks through floors or walls. This involves applying waterproof membranes or coatings to all surfaces.'
@@ -363,6 +442,7 @@ export const TILING_SERVICES = {
         },
       },
       flooring: {
+        title: 'Flooring',
         slope: {
           title: 'Slope',
           description: 'The floor is subtly sloped towards a drain to ensure proper water runoff.'
@@ -377,6 +457,7 @@ export const TILING_SERVICES = {
         },
       },
       shower_area: {
+        title: 'Shower Area',
         open_plan: {
           title: 'Open Plan',
           description: 'The shower is integrated into the room without barriers, creating a seamless and spacious appearance.'
@@ -391,6 +472,7 @@ export const TILING_SERVICES = {
         description: 'Proper ventilation is crucial to prevent mold and mildew. An effective extraction fan system is often installed to manage humidity.'
       },
       heating: {
+        title: 'Heating',
         underfloor_heating: {
           title: 'Underfloor Heating',
           description: 'Often used to keep the floor dry and warm, enhancing comfort and preventing slips.'
@@ -402,7 +484,9 @@ export const TILING_SERVICES = {
       }
     },
     materials_and_finishes: {
+      title: 'Materials and Finishes',
       tiles: {
+        title: 'Tiles',
         ceramic_or_porcelain: {
           title: 'Ceramic or Porcelain',
           description: 'Common choices for walls and floors due to their durability and water resistance.'
@@ -410,20 +494,22 @@ export const TILING_SERVICES = {
         mosaic_tiles: {
           title: 'Mosaic Tiles',
           description: 'Often used for flooring because their numerous grout lines offer better grip and slip resistance.'
-        }
-      },
-      vinyl: {
-        sheet_vinyl: {
-          title: 'Sheet Vinyl',
-          description: 'Provides a seamless, waterproof surface, ideal for wet room floors.'
         },
         natural_stone: {
           title: 'Natural Stone',
           description: 'Used for a luxurious look but requires sealing to ensure water resistance.'
         }
+      },
+      vinyl: {
+        title: 'Vinyl',
+        sheet_vinyl: {
+          title: 'Sheet Vinyl',
+          description: 'Provides a seamless, waterproof surface, ideal for wet room floors.'
+        }
       }
     },
     benefits: {
+      title: 'Benefits',
       accessibility: {
         title: 'Accessibility',
         barrier_free: {
@@ -463,6 +549,7 @@ export const TILING_SERVICES = {
       }
     },
     considerations: {
+      title: 'Considerations',
       cost: {
         title: 'Cost',
         higher_installation_costs: {
@@ -475,6 +562,7 @@ export const TILING_SERVICES = {
         }
       },
       water_management: {
+        title: 'Water Management',
         proper_slope: {
           title: 'Proper Slope',
           description: 'Ensuring the floor is properly sloped towards the drain is crucial to prevent water pooling.'
@@ -485,12 +573,14 @@ export const TILING_SERVICES = {
         }
       },
       privacy: {
+        title: 'Privacy',
         open_design: {
           title: 'Open Design',
           description: 'The open layout might reduce privacy if the wet room is part of a shared bathroom.'
         }
       },
       humidity_control: {
+        title: 'Humidity Control',
         ventilation: {
           title: 'Ventilation',
           description: 'Adequate ventilation is necessary to manage moisture and prevent mold growth.'
@@ -498,7 +588,9 @@ export const TILING_SERVICES = {
       }
     },
     installation_process: {
+      title: 'Installation Process',
       planning: {
+        title: 'Planning',
         layout_design: {
           title: 'Layout Design',
           description: 'Careful planning of the layout to position the drain, shower, and other fixtures.'
@@ -509,6 +601,7 @@ export const TILING_SERVICES = {
         }
       },
       waterproofing: {
+        title: 'Waterproofing',
         applying_membranes: {
           title: 'Applying Membranes',
           description: 'aterproof membranes are applied to all surfaces, including floors and walls.'
@@ -530,6 +623,7 @@ export const TILING_SERVICES = {
         }
       },
       finishing: {
+        title: 'Finishing',
         tiling_or_flooring: {
           title: 'Tiling or Flooring',
           description: 'Laying tiles or other flooring materials and ensuring they are sealed.'

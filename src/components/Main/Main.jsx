@@ -9,6 +9,7 @@ export default function Main() {
   const clickHandler = (selectedButton) =>{
     setSelectedService(selectedButton)
   }
+
   let content = ""
   const { floor, wall, heating, wetrooms  } = TILING_SERVICES
 
