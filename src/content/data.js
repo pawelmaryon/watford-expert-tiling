@@ -273,6 +273,7 @@ export const TILING_SERVICES = {
       title: 'Installation Process',
       description: 'The installation process varies depending on the type of underfloor heating system:',
       electric_underfloor_heating_installation:{
+        title: 'Electric Underfloor Heating Installation',
         preparation: {
           title: 'Preparation',
           description: 'Ensure the subfloor is clean, level, and properly insulated to prevent heat loss.'
@@ -291,6 +292,7 @@ export const TILING_SERVICES = {
         },
       },
       hydronic_underfloor_heating_installation: {
+        title: 'Hydronic Underfloor Heating Installation',
         preparation: {
           title: 'Preparation',
           description: 'The subfloor must be clean, level, and insulated to improve efficiency.'
@@ -299,7 +301,7 @@ export const TILING_SERVICES = {
           title: 'Laying the Pipes',
           description: 'A network of pipes is laid out in a specific pattern (often a serpentine or spiral layout) to ensure even heat distribution.'
         },
-        connecting_to_heating_system: {
+        connecting_the_system: {
           title: 'Connecting to Heating System',
           description: 'The pipes are connected to a manifold, which distributes the warm water, and then linked to the boiler or heat pump.'
         },
@@ -310,20 +312,21 @@ export const TILING_SERVICES = {
       }
     },
     considerations: {
+      title: 'Considerations',
       cost: {
-        name: 'Cost',
+        title: 'Cost',
         description: 'Higher initial installation costs, particularly for hydronic systems. However, long-term energy savings can offset this expense.'
       },
       flooring_compatibility: {
-        name: 'Flooring Compatibility',
+        title: 'Flooring Compatibility',
         description: 'Works best with certain types of flooring, such as tile, stone, or engineered wood. Some types of flooring, like thick carpets or solid hardwood, may not be as effective.'
       },
       installation: {
-        name: 'Installation',
+        title: 'Installation',
         description: 'Easier to install during new construction or major renovations. Retrofitting in existing buildings can be more challenging and expensive.'
       },
       maintenance: {
-        name: 'Maintenance',
+        title: 'Maintenance',
         description: 'Generally low maintenance once installed. However, any repairs may require accessing the system beneath the floor, which can be disruptive.'
       },
     },
