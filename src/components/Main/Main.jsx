@@ -27,11 +27,12 @@ export default function Main() {
 
   const { cost: h_cost, flooring_compatibility: h_flooring_compatibility, installation: h_installation, maintenance: h_maintenance} = heating_considerations;
 
-  // console.log(floor_material, floor_design_patterns, floor_installation_process, floor_benefits_and_considerations);
-
   const {types: f_types} = floor_material
-  // console.log(f_types);
-  console.log(f_types.porcelain_tiles.description);
+
+  const {design_and_structure, materials_and_finishes, benefits, considerations, installation_process} = wetrooms;
+
+const {waterproofing, flooring, shower_area, ventilation, heating: w_heating} = design_and_structure;
+
 
   if (selectedService === 'floor') {
     content = (
@@ -132,9 +133,55 @@ export default function Main() {
           <p>{h_application.commercial.description}</p>
           <li><p>{h_application.retrofits.title}</p></li>
           <p>{h_application.retrofits.description}</p>
-          
+
         </div>
         <div id="heating-applications"></div>
+      </div>
+    )
+  }
+
+  if (selectedService === 'wetrooms') {
+    content = (
+      <div>
+        <h4>{wetrooms.title}</h4>
+        <p>{wetrooms.description}</p>
+        <h5>{design_and_structure.title}</h5>
+        <p>{waterproofing.title}</p>
+        <ul>
+          <li><p>{waterproofing.tank_the_room.title}</p></li>
+          <p>{waterproofing.tank_the_room.description}</p>
+          <li><p>{waterproofing.sealed_surfaces.title}</p></li>
+          <p>{waterproofing.sealed_surfaces.description}</p>
+        </ul>
+        <br />
+        <p>{flooring.title}</p>
+        <ul>
+          <li><p>{flooring.slope.title}</p></li>
+          <p>{flooring.slope.description}</p>
+          <li><p>{flooring.non_slip_surface.title}</p></li>
+          <p>{flooring.non_slip_surface.description}</p>
+          <li><p>{flooring.drainage.title}</p></li>
+          <p>{flooring.drainage.description}</p>
+        </ul>
+        <br />
+        <p>{shower_area.title}</p>
+        <ul>
+          <li><p>{shower_area.open_plan.title}</p></li>
+          <p>{shower_area.open_plan.description}</p>
+          <li><p>{shower_area.screen.title}</p></li>
+          <p>{shower_area.screen.description}</p>
+        </ul>
+        <br />
+        <p>{ventilation.title}</p>
+        <p>{ventilation.description}</p>
+        <br />
+        <p>{w_heating.title}</p>
+        <ul>
+          <li><p>{w_heating.underfloor_heating.title}</p></li>
+          <p>{w_heating.underfloor_heating.description}</p>
+          <li><p>{w_heating.heated_towel_rails.title}</p></li>
+          <p>{w_heating.heated_towel_rails.description}</p>
+        </ul>
       </div>
     )
   }

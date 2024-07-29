@@ -467,7 +467,7 @@ export const TILING_SERVICES = {
           description: 'Some wet rooms may have a partial screen or a glass partition to prevent water splashing on certain areas, though this is not always necessary.'
         }
       },
-      vantilation: {
+      ventilation: {
         title: 'Ventilation',
         description: 'Proper ventilation is crucial to prevent mold and mildew. An effective extraction fan system is often installed to manage humidity.'
       },
